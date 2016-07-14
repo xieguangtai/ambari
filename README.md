@@ -12,7 +12,7 @@
 ## centos_tools
 基于cento_base镜像添加一些基础包，如sudo, openssh等。
 
-### ambari_client
+## ambari_client
 基于centos_tools构建的ambari_client镜像可以在启动容器时创建密钥并以守护进程运行sshd服务。
 
 ##ambari_server
