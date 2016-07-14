@@ -1,0 +1,6 @@
+[Updates-ambari-2.1.2]
+name=ambari-2.1.2 - Updates
+baseurl=file:///var/www/html/ambari-2.1.2/centos7/2.x/updates/2.1.2
+gpgcheck=0
+enabled=1
+priority=1

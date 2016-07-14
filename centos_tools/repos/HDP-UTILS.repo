@@ -1,0 +1,5 @@
+[HDP-UTILS-1.1.0.20]
+name=HDP-UTILS-1.1.0.20
+baseurl=http://10.110.13.125/HDP-UTILS-1.1.0.20/repos/centos7
+enabled=1
+gpgcheck=0

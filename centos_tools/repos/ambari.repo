@@ -1,0 +1,7 @@
+#VERSION_NUMBER=2.1.2-377
+
+[Updates-ambari-2.1.2]
+name=ambari-2.1.2 - Updates
+baseurl=http://10.110.13.125/ambari/centos7/2.x/updates/2.1.2
+gpgcheck=0
+enabled=1

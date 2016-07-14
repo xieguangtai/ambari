@@ -1,0 +1,6 @@
+[CentOS-7]
+name=CentOS-7
+baseurl=file:///var/www/html/CentOS-7
+enable=1
+gpgcheck=0
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7

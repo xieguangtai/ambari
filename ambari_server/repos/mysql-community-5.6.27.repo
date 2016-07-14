@@ -1,0 +1,5 @@
+[mysql-5.6.27]
+name=5.6.27-2
+baseurl=file:///var/www/html/MySQL
+enabled=1
+gpgcheck=0

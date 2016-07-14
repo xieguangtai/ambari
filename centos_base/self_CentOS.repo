@@ -1,0 +1,6 @@
+[base]
+name=CentOS-$releasever - Base
+baseurl=http://10.110.13.125/ISO/IDAPManager-CentOS-7-x86_64_V1.0
+enable=1
+gpgcheck=0
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
