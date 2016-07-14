@@ -1,1 +1,3 @@
 构建ambari_server镜像。
+由于ambari和HDP以及HDP-UTILS包太大，故没有上传，估计也不允许上传。基于Dockerfile构建镜像时需自行准备ambari、HDP、以及HDP-UTILS。
+强烈建议搭建本地源，采取将repo文件ADD到镜像的方式构建镜像。
