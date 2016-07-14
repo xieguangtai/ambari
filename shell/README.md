@@ -1,8 +1,11 @@
-##为了偷懒，将不想手敲的命令写成的脚本。
-由于使用pipework给容器分配ip，故需要先执行_initial-bridge.sh_脚本生成一个虚拟网卡，并将物理网卡挂到该虚拟网卡上。
-__ip.txt__ 存放的是需要分配给 *server* **容器**和 *client* 的ip地址，注意该文本文件的ip地址需要是未被占用的ip地址。
+## 说明
+为了偷懒，将不想手敲的命令写成的脚本。
 
-hip.txt放的是物理机的ip地址，由于pipework给容器赋予地址后，需要一定生效时间，故采取容器ping宿主机的方式，直至ping通为止。
+由于使用pipework给容器分配 ip ，故需要先执行 _initial-bridge.sh_ 脚本生成一个虚拟网卡，并将物理网卡挂到该虚拟网卡上。
+
+ _ip.txt_ 存放的是需要分配给 *server* **容器**和 *client* 的 ip 地址，注意该文本文件的ip地址需要是未被占用的 ip 地址。
+
+ *hip.txt* 放的是物理机的ip地址，由于pipework给容器赋予地址后，需要一定生效时间，故采取容器ping宿主机的方式，直至ping通为止。
 
 ## 执行(client和master都为容器)
 先执行runclient.sh，根据ip.txt里面分配的ip来依次给容器设置ip地址。
