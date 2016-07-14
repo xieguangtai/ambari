@@ -1,5 +1,5 @@
 #!/bin/bash
-name=test_client2
+name=test-client
 
 docker kill $name
 docker rm $name

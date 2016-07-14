@@ -1,0 +1,3 @@
+基于centos_raw构建的centos_base镜像，添加了systemd和openssl包，移除了fakesystemd包。
+
+执行构建镜像时，为了偷懒，直接sh buildBaseCentos.sh，注意在脚本中替换imageTag、imageName为你自己的。
