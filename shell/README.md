@@ -10,11 +10,11 @@
 # 执行
 ## client和master都为容器
 先执行 _runclient.sh_ ，根据 _ip.txt_ 里面分配的 ip 来依次给容器设置 ip 地址。
-各个宿主机上的client容器都起来之后，再执行 _runmaster.sh_ ，待 master 容器启动后，执行 _setupambariserver.sh_ 对集群进行 ssh 互信等操作。
+各个宿主机上的 client 容器都起来之后，再执行 _runmaster.sh_ ，待 master 容器启动后，执行 _setupambariserver.sh_ 对集群进行 ssh 互信等操作。
 
 ## client为物理机，master为容器
 将需要进行部署 client 机器的 ip 和准备分配给 server 的 ip 统统写到 _ip.txt_ 里
 面，各 client 需要修改 **hostname** 用于唯一标识。准备工作完毕之后，执行 _runmaster.sh_ 启动 master 容器，待 master 容器启动后，执行 _setupambariserver.sh_ 对集群进行 ssh 互信等操作。
 
 # 友情提示
-启动 master 容器时需要使用 pipework 工具进行设置 ip ，以及需要使用 docker-spotter 工具进行事件监听，以达到容器重启之后将保持 ip 和 hosts 和重启之前一样的目的。
+启动 master 容器时需要使用 pipework 工具进行设置 ip ，以及需要使用 docker-spotter 工具进行事件监听，以达到容器重启之后保持 ip 和 hosts 和重启之前一样的目的。
