@@ -1,1 +1,0 @@
-基于centos_raw构建的centos_base镜像，添加了systemd和openssl包，移除了fakesystemd包。
