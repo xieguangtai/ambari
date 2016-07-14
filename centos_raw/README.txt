@@ -1,4 +1,0 @@
-第一步，构建个人centos镜像，构建出来的是centos7.0
-因为直接在dockerhub上pull下来的centos是最新版本，
-里面的systemd是229，openssl是51版本，不能构建ambari
-需要systemd208与openssl42版本的

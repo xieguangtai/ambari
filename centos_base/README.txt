@@ -1,2 +1,0 @@
-在自己做的centos7的基础上，删除了fakesystemd包，安装了本地源里面的systemd208月openssl42
-不然安装ambari的时候会提示这俩包依赖没解决。
